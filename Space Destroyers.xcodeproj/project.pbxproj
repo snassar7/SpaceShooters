@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFE5B53B29184E75008817B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5B53A29184E75008817B3 /* AppDelegate.swift */; };
+		DFE5B53D29184E75008817B3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5B53C29184E75008817B3 /* GameViewController.swift */; };
+		DFE5B54029184E75008817B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE5B53E29184E75008817B3 /* Main.storyboard */; };
+		DFE5B54329184E75008817B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE5B54129184E75008817B3 /* LaunchScreen.storyboard */; };
+		DFE5B54429184E75008817B3 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = DFE5B52F29184E74008817B3 /* Actions.sks */; };
+		DFE5B54629184E75008817B3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5B53129184E74008817B3 /* GameScene.swift */; };
+		DFE5B54729184E75008817B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE5B53229184E75008817B3 /* Assets.xcassets */; };
+		DFE5B55029185080008817B3 /* StartGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5B54F29185080008817B3 /* StartGameScene.swift */; };
+		DFE5B5522918555B008817B3 /* Invader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5B5512918555B008817B3 /* Invader.swift */; };
+		DFE5B55429185593008817B3 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5B55329185593008817B3 /* Player.swift */; };
+		DFE5B5562918572A008817B3 /* Bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5B5552918572A008817B3 /* Bullet.swift */; };
+		DFE5B5582918577D008817B3 /* InvaderBullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5B5572918577D008817B3 /* InvaderBullet.swift */; };
+		DFE5B55A29185798008817B3 /* PlayerBullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5B55929185798008817B3 /* PlayerBullet.swift */; };
+		DFE5B55C29185D8E008817B3 /* CollisionCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5B55B29185D8E008817B3 /* CollisionCategories.swift */; };
+		DFE5B55E2918654B008817B3 /* LevelCompleteScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5B55D2918654B008817B3 /* LevelCompleteScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DFE5B52F29184E74008817B3 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		DFE5B53129184E74008817B3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DFE5B53229184E75008817B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFE5B53729184E75008817B3 /* Space Destroyers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Destroyers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE5B53A29184E75008817B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFE5B53C29184E75008817B3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DFE5B53F29184E75008817B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFE5B54229184E75008817B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFE5B54F29185080008817B3 /* StartGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGameScene.swift; sourceTree = "<group>"; };
+		DFE5B5512918555B008817B3 /* Invader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invader.swift; sourceTree = "<group>"; };
+		DFE5B55329185593008817B3 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		DFE5B5552918572A008817B3 /* Bullet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bullet.swift; sourceTree = "<group>"; };
+		DFE5B5572918577D008817B3 /* InvaderBullet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvaderBullet.swift; sourceTree = "<group>"; };
+		DFE5B55929185798008817B3 /* PlayerBullet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerBullet.swift; sourceTree = "<group>"; };
+		DFE5B55B29185D8E008817B3 /* CollisionCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionCategories.swift; sourceTree = "<group>"; };
+		DFE5B55D2918654B008817B3 /* LevelCompleteScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelCompleteScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFE5B53429184E75008817B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFE5B52929184E74008817B3 = {
+			isa = PBXGroup;
+			children = (
+				DFE5B54E29184FA9008817B3 /* Models */,
+				DFE5B54D29184F2E008817B3 /* Scenes */,
+				DFE5B52E29184E74008817B3 /* Space Destroyers Shared */,
+				DFE5B53929184E75008817B3 /* Space Destroyers iOS */,
+				DFE5B53829184E75008817B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFE5B52E29184E74008817B3 /* Space Destroyers Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DFE5B52F29184E74008817B3 /* Actions.sks */,
+				DFE5B53229184E75008817B3 /* Assets.xcassets */,
+			);
+			path = "Space Destroyers Shared";
+			sourceTree = "<group>";
+		};
+		DFE5B53829184E75008817B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFE5B53729184E75008817B3 /* Space Destroyers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFE5B53929184E75008817B3 /* Space Destroyers iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DFE5B53A29184E75008817B3 /* AppDelegate.swift */,
+				DFE5B53C29184E75008817B3 /* GameViewController.swift */,
+				DFE5B53E29184E75008817B3 /* Main.storyboard */,
+				DFE5B54129184E75008817B3 /* LaunchScreen.storyboard */,
+			);
+			path = "Space Destroyers iOS";
+			sourceTree = "<group>";
+		};
+		DFE5B54D29184F2E008817B3 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				DFE5B54F29185080008817B3 /* StartGameScene.swift */,
+				DFE5B53129184E74008817B3 /* GameScene.swift */,
+				DFE5B55D2918654B008817B3 /* LevelCompleteScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		DFE5B54E29184FA9008817B3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DFE5B5512918555B008817B3 /* Invader.swift */,
+				DFE5B55329185593008817B3 /* Player.swift */,
+				DFE5B5552918572A008817B3 /* Bullet.swift */,
+				DFE5B5572918577D008817B3 /* InvaderBullet.swift */,
+				DFE5B55929185798008817B3 /* PlayerBullet.swift */,
+				DFE5B55B29185D8E008817B3 /* CollisionCategories.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFE5B53629184E75008817B3 /* Space Destroyers iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE5B54A29184E75008817B3 /* Build configuration list for PBXNativeTarget "Space Destroyers iOS" */;
+			buildPhases = (
+				DFE5B53329184E75008817B3 /* Sources */,
+				DFE5B53429184E75008817B3 /* Frameworks */,
+				DFE5B53529184E75008817B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Space Destroyers iOS";
+			productName = "Space Destroyers iOS";
+			productReference = DFE5B53729184E75008817B3 /* Space Destroyers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFE5B52A29184E74008817B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					DFE5B53629184E75008817B3 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = DFE5B52D29184E74008817B3 /* Build configuration list for PBXProject "Space Destroyers" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFE5B52929184E74008817B3;
+			productRefGroup = DFE5B53829184E75008817B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFE5B53629184E75008817B3 /* Space Destroyers iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFE5B53529184E75008817B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE5B54029184E75008817B3 /* Main.storyboard in Resources */,
+				DFE5B54429184E75008817B3 /* Actions.sks in Resources */,
+				DFE5B54329184E75008817B3 /* LaunchScreen.storyboard in Resources */,
+				DFE5B54729184E75008817B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFE5B53329184E75008817B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE5B55A29185798008817B3 /* PlayerBullet.swift in Sources */,
+				DFE5B54629184E75008817B3 /* GameScene.swift in Sources */,
+				DFE5B55029185080008817B3 /* StartGameScene.swift in Sources */,
+				DFE5B55E2918654B008817B3 /* LevelCompleteScene.swift in Sources */,
+				DFE5B5522918555B008817B3 /* Invader.swift in Sources */,
+				DFE5B55C29185D8E008817B3 /* CollisionCategories.swift in Sources */,
+				DFE5B5562918572A008817B3 /* Bullet.swift in Sources */,
+				DFE5B53D29184E75008817B3 /* GameViewController.swift in Sources */,
+				DFE5B55429185593008817B3 /* Player.swift in Sources */,
+				DFE5B53B29184E75008817B3 /* AppDelegate.swift in Sources */,
+				DFE5B5582918577D008817B3 /* InvaderBullet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DFE5B53E29184E75008817B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFE5B53F29184E75008817B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFE5B54129184E75008817B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFE5B54229184E75008817B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFE5B54829184E75008817B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFE5B54929184E75008817B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DFE5B54B29184E75008817B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76LQQJVP53;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cluster.Space-Destroyers";
+				PRODUCT_NAME = "Space Destroyers";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFE5B54C29184E75008817B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76LQQJVP53;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cluster.Space-Destroyers";
+				PRODUCT_NAME = "Space Destroyers";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFE5B52D29184E74008817B3 /* Build configuration list for PBXProject "Space Destroyers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE5B54829184E75008817B3 /* Debug */,
+				DFE5B54929184E75008817B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE5B54A29184E75008817B3 /* Build configuration list for PBXNativeTarget "Space Destroyers iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE5B54B29184E75008817B3 /* Debug */,
+				DFE5B54C29184E75008817B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFE5B52A29184E74008817B3 /* Project object */;
+}
